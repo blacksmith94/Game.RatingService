@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Game.RatingService.WebAPI.Tests.Integration": {
+      "commandName": "Project"
+    }
+  }
+}

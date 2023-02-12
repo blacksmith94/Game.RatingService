@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.WebAPI", "src\Game.RatingService.WebAPI\Game.RatingService.WebAPI.csproj", "{9C885077-9175-4CE9-8531-E5C95EB50F7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.WebAPI.Tests.Integration", "src\Game.RatingService.WebAPI.Tests.Integration\Game.RatingService.WebAPI.Tests.Integration.csproj", "{9D1C85FC-1EFA-42B6-AFB8-62B9991C152B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.Domain", "src\Game.RatingService.Domain\Game.RatingService.Domain.csproj", "{1B97282E-1FAD-42F5-94E0-19F3AE1D69DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.SqlDataAccess", "src\Game.RatingService.SqlDataAccess\Game.RatingService.SqlDataAccess.csproj", "{E452EBF1-FB3B-4176-B65D-0578EBAB2F9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.Configurations", "src\Game.RatingService.Configurations\Game.RatingService.Configurations.csproj", "{83221BBF-94B8-45A6-B6DA-66F7337E8958}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game.RatingService.WebAPI.Tests.UnitTesting", "src\Game.RatingService.WebAPI.Tests.UnitTesting\Game.RatingService.WebAPI.Tests.UnitTesting.csproj", "{8783B9B7-850A-4DBD-9C6E-BF3B622D8251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C885077-9175-4CE9-8531-E5C95EB50F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C885077-9175-4CE9-8531-E5C95EB50F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C885077-9175-4CE9-8531-E5C95EB50F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C885077-9175-4CE9-8531-E5C95EB50F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1C85FC-1EFA-42B6-AFB8-62B9991C152B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1C85FC-1EFA-42B6-AFB8-62B9991C152B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1C85FC-1EFA-42B6-AFB8-62B9991C152B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1C85FC-1EFA-42B6-AFB8-62B9991C152B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B97282E-1FAD-42F5-94E0-19F3AE1D69DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B97282E-1FAD-42F5-94E0-19F3AE1D69DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B97282E-1FAD-42F5-94E0-19F3AE1D69DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B97282E-1FAD-42F5-94E0-19F3AE1D69DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E452EBF1-FB3B-4176-B65D-0578EBAB2F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E452EBF1-FB3B-4176-B65D-0578EBAB2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E452EBF1-FB3B-4176-B65D-0578EBAB2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E452EBF1-FB3B-4176-B65D-0578EBAB2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83221BBF-94B8-45A6-B6DA-66F7337E8958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83221BBF-94B8-45A6-B6DA-66F7337E8958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83221BBF-94B8-45A6-B6DA-66F7337E8958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83221BBF-94B8-45A6-B6DA-66F7337E8958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8783B9B7-850A-4DBD-9C6E-BF3B622D8251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8783B9B7-850A-4DBD-9C6E-BF3B622D8251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8783B9B7-850A-4DBD-9C6E-BF3B622D8251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8783B9B7-850A-4DBD-9C6E-BF3B622D8251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F106B6D6-B226-4B69-A47E-2BB79833F79B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24443/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "RatingService.WebAPI": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "$(Configuration)"
+      },
+      "applicationUrl": "http://localhost:5001"
+    }
+  }
+}

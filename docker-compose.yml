@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+    api:
+        build:
+            dockerfile: Dockerfile-api  
+            context: .     
+        ports:
+            - 5001:5001
+        depends_on:
+            sql:
+              condition: service_healthy
+        restart: always
+        environment:
+            SQL_HOST: sql
+
+    sql:
+        image: mcr.microsoft.com/mssql/server:latest
+        environment:
+            ACCEPT_EULA: Y
+            MSSQL_SA_PASSWORD: T8CA:^7SF!tu
+        ports:
+            - 1433:1433
+        healthcheck:
+            test: [ "CMD", "pidof", "sqlservr" ]
+            interval: 5s
+            timeout: 10s
+            retries: 5
