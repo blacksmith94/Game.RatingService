@@ -15,7 +15,7 @@ The API can be served using [Docker](https://docs.docker.com/get-started/overvie
 * `cd Game.RatingService`
 * `docker-compose build`
 
-Make sure you have an instance of SQL Server before running the [Integration](https://en.wikipedia.org/wiki/Integration_testing) and [Unit](https://en.wikipedia.org/wiki/Unit_testing) tests and the service.
+Make sure you have an instance of SQL Server before running the [Integration](https://en.wikipedia.org/wiki/Integration_testing) tests, the [Unit](https://en.wikipedia.org/wiki/Unit_testing) tests and the service.
 
 To bring up the service, including the creation of the SQL Server container, run this command from the root folder:
 * `docker-compose up`
