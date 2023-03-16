@@ -44,7 +44,7 @@ The API will be served at http://localhost:5001/api
 
 
 `GET` Endpoint to fetch the list of the latest ratings, it accepts a query param to filter ratings by the score that the users specified. 
-* `GET -> http://localhost:5001/api/Rating?rating=3`
+* `GET -> http://localhost:5001/api/Rating?score=3`
 
 
 ## OpenAPI Specification
